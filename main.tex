@@ -1,11 +1,25 @@
 \input{preamble.tex}
 
+\subject{Wir machen Freifunk am}
+\title{Freifunk Standort}
+\author{Freifunk Berlin}
+\date{2022}
 
-\subject{Subject}
-\title{Title of this document}
-\author{Danilo Bargen}
-\date{January 2012}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{sectsty}
+\usepackage{caption}
+\usepackage{microtype}
 
+\definecolor{freifunk-yellow}{RGB}{255,180,0}
+\definecolor{freifunk-magenta}{RGB}{220,0,103}
+\definecolor{freifunk-blue}{RGB}{0,158,224}
+
+\chapterfont{\color{freifunk-magenta}}
+\allsectionsfont{\color{freifunk-magenta}}
+
+\captionsetup[figure]{labelformat=empty}
+\setlength{\headsep}{1cm}
 
 \input{header.tex}
 
@@ -13,10 +27,16 @@
 
 \input{title.tex}
 
-\section{Section}
-
-\subsection{Subsection}
-
-Content
-
+\vspace{5cm}
+\section*{Was ist Freifunk?}
+\vspace{-0.5cm}
+\begin{wrapfigure}{r}{0.5\textwidth}
+	\centering
+	\includegraphics[width=0.5\textwidth]{images/freifunk-mesh}
+	\caption{Exemplarischer Aufbau von Freifunk}
+\end{wrapfigure}
+Die historische Freifunk-Idee ist ein Mesh-Netzwerk mithilfe von WiFi-Funk-Verbindungen über den Dächern der Stadt aufzubauen, welches für alle Menschen leicht zugänglich ist. Zusätzlich bietet das Netz Ausfallsicherheit durch redundanten Kommunikationswege. So bleibt man online beim Katastrophenfall als auch bei lokalen Internetstörungen eines Bezirks. Wir arbeiten mit Rechenzentren zusammen, die es uns ermöglicht, Gratis-Internetzugänge über diese Wifi-Funkverbindungen anzubieten.Vor allem profitieren so Menschen von dem Netz, die sich keinen Internetzugang leisten können oder ihn auch nicht bekommen. So versorgen wir u. a. Flüchtlingsunterkünfte mit kostenlosem Internet. Um dieses Netz aufzubauen, sind wir abhängig von hohen Standorten, die wir benutzen können, um die entsprechenden Verbindungen zu etablieren. 
+\section*{Vorhaben}
+\section*{Kosten}
+GELD!
 \end{document}
